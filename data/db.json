@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "name": "mmmmm",
+      "price": 0,
+      "checked": true,
+      "id": 35
+    },
+    {
+      "name": "mloiu",
+      "price": 0,
+      "checked": false,
+      "id": 36
+    },
+    {
+      "name": "mlkjhh",
+      "price": 0,
+      "checked": false,
+      "id": 38
+    },
+    {
+      "name": "mmmmmm",
+      "price": 0,
+      "checked": true,
+      "id": 39
+    },
+    {
+      "name": "Computer HP 760",
+      "price": "4300",
+      "checked": true,
+      "id": 40
+    },
+    {
+      "name": "Printer ",
+      "price": "5400",
+      "checked": true,
+      "id": 73
+    },
+    {
+      "name": "Computer Dell",
+      "price": "1200",
+      "checked": true,
+      "id": 74
+    },
+    {
+      "name": "HP 6545",
+      "price": "67",
+      "checked": true,
+      "id": 75
+    },
+    {
+      "name": "Test",
+      "price": "67",
+      "checked": true,
+      "id": 76
+    },
+    {
+      "name": "Test",
+      "price": "67",
+      "checked": true,
+      "id": 77
+    },
+    {
+      "name": "Test",
+      "price": "67",
+      "checked": true,
+      "id": 78
+    },
+    {
+      "name": "Mohamed",
+      "price": "89",
+      "checked": true,
+      "id": 79
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsIm5hbWUiOiJVc2VyMSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJVU0VSIl19.athVfrz8HqlhFy7opZyvFuLQgN7FYGUngNQEPbaR9wE"
+    },
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsIm5hbWUiOiJNb2hhbWVkIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE1MTYyMzkwMjIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiJdfQ.7FTLbjuAtqtfeKNLXeWvPmKQoD01miwQ51xzK3mWksg"
+    }
+  ]
+}

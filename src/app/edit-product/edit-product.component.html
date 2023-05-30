@@ -1,0 +1,32 @@
+<div class="row p-3">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-body" *ngIf="productFormGroup">
+        <form [formGroup]="productFormGroup" (ngSubmit)="handleUpdateProduct()">
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input id="name" class="form-control" type="text" formControlName="name"/>
+            <span class="text-danger" *ngIf="productFormGroup.controls['name'].errors
+            && (productFormGroup.controls['name'].touched || productFormGroup.controls['name'].dirty  )">
+              {{getErrorMessage('Name',productFormGroup.controls['name'].errors)}}
+            </span>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Price</label>
+            <input id="price" class="form-control" type="text" formControlName="price"/>
+            <span class="text-danger" *ngIf="productFormGroup.controls['price'].errors
+            && (productFormGroup.controls['price'].touched || productFormGroup.controls['price'].dirty  )">
+              {{getErrorMessage('Price',productFormGroup.controls['price'].errors)}}
+            </span>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Checked</label>
+            <input id="checked" class="form-check" type="checkbox" formControlName="checked"/>
+          </div>
+          <button [disabled]="productFormGroup.invalid" class="btn btn-primary">Save</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>
